@@ -1,0 +1,102 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+    background-color: #071b3a;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Title */
+h1 {
+    color: yellow;
+    font-size: 45px;
+    font-weight: bold;
+
+    /* Orange Text Shadow */
+    text-shadow: 4px 4px orange;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 20px;
+    color: lightblue;
+
+    /* Convert Text to Title Case */
+    text-transform: capitalize;
+}
+
+/* Hero Card */
+.hero-card {
+    background-color: #142d52;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #facc15;
+}
+
+/* Hero Name */
+.hero-name {
+    color: orange;
+    font-size: 27px;
+}
+
+/* Description */
+.description {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Section Headings */
+.section-heading {
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Superpowers */
+.powers {
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Weaknesses */
+.weaknesses {
+    color: pink;
+    text-decoration: line-through;
+    font-size: 17px;
+    line-height: 2;
+    text-align: left;
+}
+
+/* Tilted Gold Badge */
+.badge {
+    background-color: gold;
+    color: darkblue;
+    width: 100px;
+    padding: 15px;
+    margin: 25px auto;
+    font-weight: bold;
+    border-radius: 10px;
+
+    /* Rotate the Badge */
+    transform: rotate(-10deg);
+}
+
+/* Footer */
+.footer {
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
